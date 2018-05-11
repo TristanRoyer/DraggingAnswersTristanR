@@ -480,7 +480,7 @@ function scene:create( event )
     --the text that displays the question
     questionText = display.newText( "" , 0, 0, nil, 100)
     questionText.x = display.contentWidth * 0.3
-    questionText.y = display.contentHeight * 0.9
+    questionText.y = display.contentHeight * 0.8
 
     -- create the soccer ball and place it on the scene
     soccerball = display.newImageRect("Images/soccerball.png", 60, 60, 0, 0)
@@ -495,10 +495,10 @@ function scene:create( event )
 
 
     --create answerbox alternate answers and the boxes to show them
-    answerbox = display.newText("", display.contentWidth * 0.9, 0, nil, 100)
-    alternateAnswerBox1 = display.newText("", display.contentWidth * 0.9, 0, nil, 100)
-    alternateAnswerBox2 = display.newText("", display.contentWidth * 0.9, 0, nil, 100)
-    alternateAnswerBox3 = display.newText("", display.contentWidth * 0.9, 0, nil, 100)
+    answerbox = display.newText("", display.contentWidth * 0.9, 0, nil, 120)
+    alternateAnswerBox1 = display.newText("", display.contentWidth * 0.9, 0, nil, 120)
+    alternateAnswerBox2 = display.newText("", display.contentWidth * 0.9, 0, nil, 120)
+    alternateAnswerBox3 = display.newText("", display.contentWidth * 0.9, 0, nil, 120)
 
     -- set the x positions of each of the answer boxes
     answerboxPreviousX = display.contentWidth * 0.9
